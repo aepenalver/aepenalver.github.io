@@ -1,0 +1,90 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+body,
+.card,
+a > i {
+    background-color: #aed8df;
+    color: #0a2b44;
+}
+
+nav,
+footer {
+    background-color: #0e2437;
+}
+
+a {
+    text-decoration: none;
+    color: #aed8df;
+}
+
+a:hover,
+.btn:hover {
+    background-color: #2b3165;
+    color: #aed8df;
+    font-weight: bold;
+}
+
+a i:hover {
+    font-size: 40px;
+}
+
+.bg-theme-dark {
+    background-color: #0a2b44;
+}
+
+.carousel-caption {
+    width: 30%;
+    background-color: rgba(10, 43, 68, 0.5);
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #0e2437;
+}
+
+#Hero-Section {
+    background-image: url("../img/logo_APR.png");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: left;
+}
+
+#Formación img {
+    height: 100px; /* Puedes ajustar este valor */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+#Contacto form label {
+    font-weight: 700;
+    color: #0a2b44;
+}
+
+@media (max-width: 768px) {
+    #Hero-Section {
+        background-size: 600px;
+    }
+
+    #Contacto form label {
+        font-weight: 400;
+    }
+
+    .navbar-brand {
+        width: 100px;
+    }
+}
+
+@media (max-width: 430px) {
+    #Hero-Section {
+        background-size: 400px;
+    }
+}
+
+@media (max-width: 320px) {
+    #Hero-Section {
+        background-size: 300px;
+    }
+}
