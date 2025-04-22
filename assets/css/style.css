@@ -5,13 +5,13 @@ body {
 body,
 .card,
 a > i {
-    background-color: #aed8df;
+    background-color: #ffffff;
     color: #0a2b44;
 }
 
 nav,
 footer {
-    background-color: #0e2437;
+    background-color: #858585;
 }
 
 a {
@@ -31,7 +31,7 @@ a i:hover {
 }
 
 .bg-theme-dark {
-    background-color: #0a2b44;
+    background-color: #bcbdbe;
 }
 
 .carousel-caption {
