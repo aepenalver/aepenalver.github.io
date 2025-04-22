@@ -63,6 +63,10 @@ a i:hover {
     color: #0a2b44;
 }
 
+.rrssize{
+    font-size: 4rem;
+}
+
 @media (max-width: 768px) {
     #Hero-Section {
         background-size: 600px;
